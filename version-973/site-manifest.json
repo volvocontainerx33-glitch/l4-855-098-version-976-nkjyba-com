@@ -1,0 +1,9 @@
+{
+  "site_title": "最新欧美电影-最新欧美影片合集片库-热门影片在线点播",
+  "logo": "欧美电影片库",
+  "movie_count": 2000,
+  "category_count": 8,
+  "detail_pages": 2000,
+  "m3u8_source_count": 150,
+  "cover_rule": "X = ((N - 1) % 150) + 1; images are referenced only and not included."
+}
