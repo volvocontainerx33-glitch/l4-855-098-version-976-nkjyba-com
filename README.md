@@ -1,16 +1,23 @@
-﻿# website-upload-855-098
+# 欧美电影片库
 
-Batch 98 of 16. Contains extracted static website versions. The original zip files are not committed.
+这是一个纯静态电影网站，已生成 2000 个独立影片详情页。
 
-| Directory | Source zip |
-| --- | --- |
-| version-971 | project-bolt-sb1-8sthb9ck - 副本-chatgpt (1).zip |
-| version-972 | project-bolt-sb1-8sthb9ck - 副本-chatgpt (1)__1.zip |
-| version-973 | project-bolt-sb1-8sthb9ck-chatgpt (1).zip |
-| version-974 | project-bolt-sb1-8sthb9ck-chatgpt (1)__1.zip |
-| version-975 | project-bolt-sb1-8sthb9ck-chatgpt (1)__2.zip |
-| version-976 | project-bolt-sb1-8sthb9ck-chatgpt (2).zip |
-| version-977 | project-bolt-sb1-8ttfsy97 - 副本-chatgpt (1).zip |
-| version-978 | project-bolt-sb1-8ttfsy97 - 副本-chatgpt (1)__1.zip |
-| version-979 | project-bolt-sb1-8ttfsy97 - 副本-chatgpt (2).zip |
-| version-980 | project-bolt-sb1-8ttfsy97-chatgpt (1) - from-a-20260526-121348-0066.zip |
+## 使用方式
+
+1. 解压 ZIP。
+2. 如需显示封面和首页 Hero 图片，请把 `1.jpg` 到 `150.jpg` 放在网站根目录，也就是和 `index.html` 同级的位置。
+3. 直接打开 `index.html` 或上传整站目录到任意静态空间即可访问。
+4. 播放器使用详情页内的 HLS 播放源，点击播放器上的“点击播放”按钮后会初始化播放。
+
+## 目录
+
+- `index.html`：首页
+- `categories.html`：分类总览
+- `category/`：独立分类页
+- `video/`：影片详情页
+- `search.html`：搜索筛选页
+- `rankings.html`：排行榜页
+- `assets/css/style.css`：样式文件
+- `assets/js/site.js`：导航、轮播、筛选交互
+- `assets/js/player.js`：播放器初始化
+- `sitemap.xml`：页面索引
